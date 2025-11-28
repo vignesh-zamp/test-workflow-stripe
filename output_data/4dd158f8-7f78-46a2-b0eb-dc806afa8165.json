@@ -1,0 +1,190 @@
+{
+    "contract_effective_date": "2023-05-24",
+    "contract_start_date": "2023-05-24",
+    "contract_end_date": "2025-05-24",
+    "header": "STRIPE SERVICES FEE SCHEDULE",
+    "client": "Midjourney Inc",
+    "total_contract_value": 6311227,
+    "product_rates": [
+        {
+            "service": "Credit & Debit Card Processing - Tier 1",
+            "percentage": "0.25%",
+            "fixed_fee": "0.035 USD",
+            "volume_tier": "USD 0 to 30,000,000 Net Monthly Card Volume"
+        },
+        {
+            "service": "Credit & Debit Card Processing - Tier 2",
+            "percentage": "0.18%",
+            "fixed_fee": "0.03 USD",
+            "volume_tier": "Greater than USD 30,000,000 to 60,000,000 Net Monthly Card Volume"
+        },
+        {
+            "service": "Credit & Debit Card Processing - Tier 3",
+            "percentage": "0.13%",
+            "fixed_fee": "0.025 USD",
+            "volume_tier": "Greater than USD 60,000,000 to 120,000,000 Net Monthly Card Volume"
+        },
+        {
+            "service": "Credit & Debit Card Processing - Tier 4",
+            "percentage": "0.10%",
+            "fixed_fee": "0.01 USD",
+            "volume_tier": "Greater than USD 120,000,000 Net Monthly Card Volume"
+        },
+        {
+            "service": "Bancontact Payment Method",
+            "percentage": "1.40%",
+            "fixed_fee": "0.30 USD",
+            "note": "International Payment Methods Fee applies"
+        },
+        {
+            "service": "iDeal Payment Method",
+            "percentage": "0.00%",
+            "fixed_fee": "0.80 USD",
+            "note": "International Payment Methods Fee applies"
+        },
+        {
+            "service": "Link Payment Method",
+            "percentage": "2.70%",
+            "fixed_fee": "0.20 USD"
+        },
+        {
+            "service": "Foreign Exchange Fee (Link)",
+            "percentage": "1.00%"
+        },
+        {
+            "service": "Foreign Exchange Fee",
+            "percentage": "1.00%"
+        },
+        {
+            "service": "International Card Fee (Link)",
+            "percentage": "1.00%"
+        },
+        {
+            "service": "International Payment Methods Fee",
+            "percentage": "1.50%",
+            "applies_to": "Payment Methods marked with *"
+        },
+        {
+            "service": "Link Dispute Fee",
+            "fixed_fee": "15.000 USD",
+            "unit": "per disputed payment"
+        },
+        {
+            "service": "3D Secure Lookup",
+            "fixed_fee": "0.030 USD",
+            "unit": "per 3D Secure Lookup"
+        },
+        {
+            "service": "Adaptive Acceptance",
+            "percentage": "0.020%",
+            "applies_to": "aggregate Transaction Amount for all card Transactions"
+        },
+        {
+            "service": "Card Account Updater",
+            "fixed_fee": "0.130 USD",
+            "unit": "per Automatic Card Update"
+        },
+        {
+            "service": "Card Dispute Fee",
+            "fixed_fee": "15.000 USD",
+            "unit": "per disputed payment if not resolved in User's favor"
+        },
+        {
+            "service": "Stripe Billing Scale",
+            "percentage": "0.60%",
+            "applies_to": "Processing Volume from Transactions initiated by creation of an invoice or a subscription"
+        },
+        {
+            "service": "Stripe Radar for Fraud Teams",
+            "fixed_fee": "0.050 USD",
+            "unit": "per Screened Event"
+        },
+        {
+            "service": "Stripe Radar (Standard)",
+            "fixed_fee": "0.050 USD",
+            "unit": "per Screened Event"
+        },
+        {
+            "service": "Stripe Sigma Infrastructure",
+            "fixed_fee": "1,000.000 USD",
+            "unit": "per month"
+        },
+        {
+            "service": "Stripe Sigma Activity",
+            "fixed_fee": "0.006 USD",
+            "unit": "per Payment Method Request"
+        },
+        {
+            "service": "Stripe Tax",
+            "percentage": "0.15%",
+            "applies_to": "Transaction Amount for settled Transactions where Stripe Tax is enabled"
+        },
+        {
+            "service": "Premium Support Services",
+            "fixed_fee": "5,400.00 USD",
+            "unit": "per month"
+        }
+    ],
+    "product_skus": [
+        "Credit & Debit Card Processing",
+        "Bancontact Payment Method",
+        "iDeal Payment Method",
+        "Link Payment Method",
+        "Foreign Exchange Fee (Link)",
+        "Foreign Exchange Fee",
+        "International Card Fee (Link)",
+        "International Payment Methods Fee",
+        "Link Dispute Fee",
+        "3D Secure Lookup",
+        "Adaptive Acceptance",
+        "Card Account Updater",
+        "Card Dispute Fee",
+        "Stripe Billing Scale",
+        "Stripe Radar for Fraud Teams",
+        "Stripe Radar (Standard)",
+        "Stripe Sigma Infrastructure",
+        "Stripe Sigma Activity",
+        "Stripe Tax",
+        "Premium Support Services"
+    ],
+    "products": [
+        "Credit & Debit Card Processing",
+        "Bancontact Payment Method",
+        "iDeal Payment Method",
+        "Link Payment Method",
+        "Foreign Exchange Fee (Link)",
+        "Foreign Exchange Fee",
+        "International Card Fee (Link)",
+        "International Payment Methods Fee",
+        "Link Dispute Fee",
+        "3D Secure Lookup",
+        "Adaptive Acceptance",
+        "Card Account Updater",
+        "Card Dispute Fee",
+        "Stripe Billing Scale",
+        "Stripe Radar for Fraud Teams",
+        "Stripe Radar (Standard)",
+        "Stripe Sigma Infrastructure",
+        "Stripe Sigma Activity",
+        "Stripe Tax",
+        "Premium Support Services"
+    ],
+    "autorenewal": null,
+    "direct_platform_territories": "United States",
+    "connect_territories": "United States",
+    "active_in_multiple_territories": false,
+    "incentives_credits_discounts_rebates_type": "Shortfall Credit",
+    "incentives_credits_discounts_rebates_amount": null,
+    "incentives_credits_discounts_rebates_start_date": null,
+    "incentives_credits_discounts_rebates_end_date": null,
+    "notice_period": null,
+    "stripe_legal_entity": "Stripe, Inc., a Delaware corporation",
+    "signing_user_entity_country_geography": "United States",
+    "legal_entity_modification": null,
+    "subscription_start_date": null,
+    "contract_renewal_date": null,
+    "is_amendment": true,
+    "status": "In Progress",
+    "activity_run_id": "4dd158f8-7f78-46a2-b0eb-dc806afa8165",
+    "file_path": "input_contracts/Midjourney Direct Fee Schedule 5-22-2023.pdf"
+}

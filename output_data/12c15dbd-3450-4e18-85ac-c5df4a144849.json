@@ -1,0 +1,43 @@
+{
+    "document_type": "Amendment",
+    "contract_effective_date": "2023-09-06",
+    "contract_start_date": "2023-09-06",
+    "contract_end_date": null,
+    "header": "FIRST AMENDMENT TO STRIPE SERVICES FEE SCHEDULE",
+    "client": "Midjourney Inc",
+    "total_contract_value": null,
+    "product_rates": [
+        {
+            "product_sku": "Sigma Infrastructure Fee",
+            "rate": "1,000.000 USD per month"
+        },
+        {
+            "product_sku": "Sigma Activity Fee",
+            "rate": "0.006 USD per Payment Method Request"
+        }
+    ],
+    "product_skus": [
+        "Sigma Infrastructure Fee",
+        "Sigma Activity Fee"
+    ],
+    "products": [
+        "Stripe Sigma"
+    ],
+    "autorenewal": null,
+    "direct_platform_territories": null,
+    "connect_territories": null,
+    "active_in_multiple_territories": null,
+    "incentives_credits_discounts_rebates_type": "Waiver",
+    "incentives_credits_discounts_rebates_amount": "100% of Sigma Infrastructure Fee and Sigma Activity Fee",
+    "incentives_credits_discounts_rebates_start_date": "2023-09-06",
+    "incentives_credits_discounts_rebates_end_date": null,
+    "notice_period": null,
+    "stripe_legal_entity": "Stripe, Inc., a Delaware corporation",
+    "signing_user_entity_country_geography": null,
+    "legal_entity_modification": null,
+    "subscription_start_date": "2023-09-06",
+    "contract_renewal_date": null,
+    "status": "In Progress",
+    "activity_run_id": "12c15dbd-3450-4e18-85ac-c5df4a144849",
+    "file_path": "input_contracts/MidJourney_First Amendment to Stripe Fee Schedule_clean_8-2-2023.pdf"
+}

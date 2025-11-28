@@ -1,0 +1,1335 @@
+[
+    {
+        "document_type": "Agreement",
+        "contract_effective_date": "2023-05-24",
+        "contract_start_date": "2023-05-24",
+        "contract_end_date": "2025-05-24",
+        "header": "STRIPE SERVICES FEE SCHEDULE",
+        "client": "Midjourney Inc",
+        "total_contract_value": 6311227,
+        "product_rates": [
+            {
+                "product_sku": "Credit & Debit Card Transaction (Tier 1)",
+                "rate_type": "percentage",
+                "rate_value": 0.25,
+                "fixed_fee_value": 0.035,
+                "currency": "USD",
+                "volume_tier": "0 to 30,000,000 USD Net Monthly Card Volume"
+            },
+            {
+                "product_sku": "Credit & Debit Card Transaction (Tier 2)",
+                "rate_type": "percentage",
+                "rate_value": 0.18,
+                "fixed_fee_value": 0.03,
+                "currency": "USD",
+                "volume_tier": "30,000,000 to 60,000,000 USD Net Monthly Card Volume"
+            },
+            {
+                "product_sku": "Credit & Debit Card Transaction (Tier 3)",
+                "rate_type": "percentage",
+                "rate_value": 0.13,
+                "fixed_fee_value": 0.025,
+                "currency": "USD",
+                "volume_tier": "60,000,000 to 120,000,000 USD Net Monthly Card Volume"
+            },
+            {
+                "product_sku": "Credit & Debit Card Transaction (Tier 4)",
+                "rate_type": "percentage",
+                "rate_value": 0.1,
+                "fixed_fee_value": 0.01,
+                "currency": "USD",
+                "volume_tier": "Greater than 120,000,000 USD Net Monthly Card Volume"
+            },
+            {
+                "product_sku": "Bancontact Transaction",
+                "rate_type": "percentage",
+                "rate_value": 1.4,
+                "fixed_fee_value": 0.3,
+                "currency": "USD",
+                "note": "Plus International Payment Methods Fee"
+            },
+            {
+                "product_sku": "iDeal Transaction",
+                "rate_type": "percentage",
+                "rate_value": 0.0,
+                "fixed_fee_value": 0.8,
+                "currency": "USD",
+                "note": "Plus International Payment Methods Fee"
+            },
+            {
+                "product_sku": "Link Transaction",
+                "rate_type": "percentage",
+                "rate_value": 2.7,
+                "fixed_fee_value": 0.2,
+                "currency": "USD"
+            },
+            {
+                "product_sku": "Foreign Exchange Fee (Link)",
+                "rate_type": "percentage",
+                "rate_value": 1.0,
+                "applies_to": "converted amount"
+            },
+            {
+                "product_sku": "Foreign Exchange Fee",
+                "rate_type": "percentage",
+                "rate_value": 1.0,
+                "applies_to": "converted amount"
+            },
+            {
+                "product_sku": "International Card Fee (Link)",
+                "rate_type": "percentage",
+                "rate_value": 1.0,
+                "applies_to": "Transaction Amount"
+            },
+            {
+                "product_sku": "International Payment Methods Fee",
+                "rate_type": "percentage",
+                "rate_value": 1.5,
+                "applies_to": "Transaction Amount"
+            },
+            {
+                "product_sku": "Link Dispute Fee",
+                "fixed_fee_value": 15.0,
+                "currency": "USD",
+                "unit": "per disputed payment"
+            },
+            {
+                "product_sku": "3D Secure Lookup",
+                "fixed_fee_value": 0.03,
+                "currency": "USD",
+                "unit": "per 3D Secure Lookup"
+            },
+            {
+                "product_sku": "Adaptive Acceptance",
+                "rate_type": "percentage",
+                "rate_value": 0.02,
+                "applies_to": "aggregate Transaction Amount for all card Transactions"
+            },
+            {
+                "product_sku": "Card Account Updater",
+                "fixed_fee_value": 0.13,
+                "currency": "USD",
+                "unit": "per Automatic Card Update"
+            },
+            {
+                "product_sku": "Card Dispute Fee",
+                "fixed_fee_value": 15.0,
+                "currency": "USD",
+                "unit": "per disputed payment if not resolved in User's favor"
+            },
+            {
+                "product_sku": "Billing Scale (Stripe Billing)",
+                "rate_type": "percentage",
+                "rate_value": 0.6,
+                "applies_to": "Processing Volume resulting from Transactions initiated by creation of an invoice or a subscription"
+            },
+            {
+                "product_sku": "Radar for Fraud Teams Screened Event",
+                "fixed_fee_value": 0.05,
+                "currency": "USD",
+                "unit": "per Screened Event"
+            },
+            {
+                "product_sku": "Radar (Standard) Screened Event",
+                "fixed_fee_value": 0.05,
+                "currency": "USD",
+                "unit": "per Screened Event"
+            },
+            {
+                "product_sku": "Sigma Infrastructure Fee",
+                "fixed_fee_value": 1000.0,
+                "currency": "USD",
+                "unit": "per month"
+            },
+            {
+                "product_sku": "Sigma Activity Fee",
+                "fixed_fee_value": 0.006,
+                "currency": "USD",
+                "unit": "per Payment Method Request"
+            },
+            {
+                "product_sku": "Stripe Tax",
+                "rate_type": "percentage",
+                "rate_value": 0.15,
+                "applies_to": "Transaction Amount"
+            },
+            {
+                "product_sku": "Premium Support Services",
+                "fixed_fee_value": 5400.0,
+                "currency": "USD",
+                "unit": "per month"
+            }
+        ],
+        "product_skus": [
+            "Credit & Debit Card Transaction (Tier 1)",
+            "Credit & Debit Card Transaction (Tier 2)",
+            "Credit & Debit Card Transaction (Tier 3)",
+            "Credit & Debit Card Transaction (Tier 4)",
+            "Bancontact Transaction",
+            "iDeal Transaction",
+            "Link Transaction",
+            "Foreign Exchange Fee (Link)",
+            "Foreign Exchange Fee",
+            "International Card Fee (Link)",
+            "International Payment Methods Fee",
+            "Link Dispute Fee",
+            "3D Secure Lookup",
+            "Adaptive Acceptance",
+            "Card Account Updater",
+            "Card Dispute Fee",
+            "Billing Scale (Stripe Billing)",
+            "Radar for Fraud Teams Screened Event",
+            "Radar (Standard) Screened Event",
+            "Sigma Infrastructure Fee",
+            "Sigma Activity Fee",
+            "Stripe Tax",
+            "Premium Support Services"
+        ],
+        "products": [
+            "Credit & Debit Card Fees",
+            "Other Payment Methods Fees",
+            "Foreign Exchange Fee; International Payment Methods Fee",
+            "Other Fees (Non-Terminal Transactions)",
+            "Stripe Billing",
+            "Stripe Radar",
+            "Stripe Sigma",
+            "Stripe Tax",
+            "Support Services"
+        ],
+        "autorenewal": null,
+        "direct_platform_territories": [
+            "United States"
+        ],
+        "connect_territories": null,
+        "active_in_multiple_territories": false,
+        "incentives_credits_discounts_rebates_type": "Shortfall Credit",
+        "incentives_credits_discounts_rebates_amount": null,
+        "incentives_credits_discounts_rebates_start_date": null,
+        "incentives_credits_discounts_rebates_end_date": null,
+        "notice_period": null,
+        "stripe_legal_entity": "Stripe, Inc., a Delaware corporation",
+        "signing_user_entity_country_geography": "United States",
+        "legal_entity_modification": null,
+        "subscription_start_date": "2023-05-24",
+        "contract_renewal_date": null,
+        "status": "Completed",
+        "activity_run_id": "a8b1ce54-eb72-4757-85df-eb12517c49b1",
+        "file_path": "input_contracts/Midjourney Direct Fee Schedule 5-22-2023.pdf"
+    },
+    {
+        "document_type": "Amendment",
+        "contract_effective_date": "2023-09-06",
+        "contract_start_date": "2023-09-06",
+        "contract_end_date": null,
+        "header": "FIRST AMENDMENT TO STRIPE SERVICES FEE SCHEDULE",
+        "client": "Midjourney Inc",
+        "total_contract_value": null,
+        "product_rates": [
+            {
+                "product_sku": "Sigma Infrastructure Fee",
+                "rate": "1,000.000 USD per month"
+            },
+            {
+                "product_sku": "Sigma Activity Fee",
+                "rate": "0.006 USD per Payment Method Request"
+            }
+        ],
+        "product_skus": [
+            "Sigma Infrastructure Fee",
+            "Sigma Activity Fee"
+        ],
+        "products": [
+            "Stripe Sigma"
+        ],
+        "autorenewal": null,
+        "direct_platform_territories": null,
+        "connect_territories": null,
+        "active_in_multiple_territories": null,
+        "incentives_credits_discounts_rebates_type": "Waiver",
+        "incentives_credits_discounts_rebates_amount": "100% of Sigma Infrastructure Fee and Sigma Activity Fee",
+        "incentives_credits_discounts_rebates_start_date": "2023-09-06",
+        "incentives_credits_discounts_rebates_end_date": null,
+        "notice_period": null,
+        "stripe_legal_entity": "Stripe, Inc., a Delaware corporation",
+        "signing_user_entity_country_geography": null,
+        "legal_entity_modification": null,
+        "subscription_start_date": "2023-09-06",
+        "contract_renewal_date": null,
+        "status": "Needs Attention",
+        "activity_run_id": "12c15dbd-3450-4e18-85ac-c5df4a144849",
+        "file_path": "input_contracts/MidJourney_First Amendment to Stripe Fee Schedule_clean_8-2-2023.pdf"
+    },
+    {
+        "document_type": "Agreement",
+        "contract_effective_date": "2024-10-16",
+        "contract_start_date": "2024-10-16",
+        "contract_end_date": "2028-10-16",
+        "header": "STRIPE SERVICES FEE SCHEDULE - PLATFORM",
+        "client": "Jane Software, Inc., a Canadian Software Company",
+        "total_contract_value": null,
+        "product_rates": [
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Network Cost",
+                "territory": "All covered territories",
+                "rate": "Charged to User",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 1: CAD 0 to 200,000,000",
+                "rate": "0.050%",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 1: CAD 0 to 200,000,000",
+                "rate": "0.076 AUD, 0.050 CAD, 0.039 GBP, 0.050 USD",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 2: CAD 200,000,000 to 450,000,000",
+                "rate": "0.035%",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 2: CAD 200,000,000 to 450,000,000",
+                "rate": "0.053 AUD, 0.035 CAD, 0.027 GBP, 0.035 USD",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 2: CAD 200,000,000 to 600,000,000",
+                "rate": "0.030%",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 2: CAD 200,000,000 to 600,000,000",
+                "rate": "0.030 AUD, 0.020 CAD, 0.016 GBP, 0.020 USD",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 3: CAD 450,000,000 to 600,000,000",
+                "rate": "0.030%",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 3: CAD 450,000,000 to 600,000,000",
+                "rate": "0.038 AUD, 0.025 CAD, 0.020 GBP, 0.025 USD",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 3: CAD 600,000,000 to 750,000,000",
+                "rate": "0.020%",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 3: CAD 600,000,000 to 750,000,000",
+                "rate": "0.030 AUD, 0.020 CAD, 0.016 GBP, 0.020 USD",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 4: CAD 600,000,000 to 750,000,000",
+                "rate": "0.020%",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 4: CAD 600,000,000 to 750,000,000",
+                "rate": "0.030 AUD, 0.020 CAD, 0.016 GBP, 0.020 USD",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 4: Greater than CAD 750,000,000",
+                "rate": "0.015%",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 4: Greater than CAD 750,000,000",
+                "rate": "0.030 AUD, 0.020 CAD, 0.016 GBP, 0.020 USD",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Percentage of Transaction Amount",
+                "description": "Tier 4 (renamed from Tier 5): Greater than CAD 750,000,000",
+                "rate": "0.015%",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees (Non-Terminal & Terminal)",
+                "type": "Fixed Fee",
+                "description": "Tier 4 (renamed from Tier 5): Greater than CAD 750,000,000",
+                "rate": "0.030 AUD, 0.020 CAD, 0.016 GBP, 0.020 USD",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Foreign Exchange Fee",
+                "type": "Foreign Exchange Fee",
+                "territory": "Australia, Canada, United Kingdom",
+                "rate": "2.00% of the converted amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Foreign Exchange Fee",
+                "type": "Foreign Exchange Fee",
+                "territory": "United States",
+                "rate": "1.00% of the converted amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "3D Secure",
+                "territory": "Canada",
+                "rate": "0.040 CAD per 3D Secure Lookup",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Adaptive Acceptance",
+                "territory": "Canada",
+                "rate": "0.000% of the aggregate Transaction Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Account Updater",
+                "territory": "Canada",
+                "rate": "0.150 CAD per Automatic Card Update",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Instant Payout Fee",
+                "territory": "Canada",
+                "rate": "0.500% of Payout Amount (Minimum of 0.60 CAD)",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Network Token Fee",
+                "territory": "Canada",
+                "rate": "0.200 CAD per Card Network Token",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Network Token Fee",
+                "territory": "Canada",
+                "rate": "0.050 CAD per Card Network Token",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "3D Secure",
+                "territory": "United States",
+                "rate": "0.030 USD per 3D Secure Lookup",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "3D Secure",
+                "territory": "United States",
+                "rate": "0.040 USD per 3D Secure Lookup",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Adaptive Acceptance",
+                "territory": "United States",
+                "rate": "0.000% of the aggregate Transaction Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Account Updater",
+                "territory": "United States",
+                "rate": "0.150 USD per Automatic Card Update",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Network Token Fee",
+                "territory": "United States",
+                "rate": "0.200 USD per Card Network Token",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Network Token Fee",
+                "territory": "United States",
+                "rate": "0.050 USD per Card Network Token",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Dispute Fee",
+                "territory": "Australia",
+                "rate": "25.000 AUD per disputed payment",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Dispute Fee",
+                "territory": "Canada",
+                "rate": "15.000 CAD per disputed payment",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Dispute Fee",
+                "territory": "United Kingdom",
+                "rate": "15.000 GBP per disputed payment",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Card Dispute Fee",
+                "territory": "United States",
+                "rate": "15.00 USD per disputed payment",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Instant Payout Fee",
+                "territory": "United Kingdom",
+                "rate": "0.500% of Payout Amount (Minimum of 0.40 GBP)",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Other Fees (Non-Terminal Transactions)",
+                "type": "Instant Payout Fee",
+                "territory": "United States",
+                "rate": "0.500% of Payout Amount (Minimum of 0.50 USD)",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "Australia",
+                "rate": "0.050 AUD per Payment Card Request",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "Australia",
+                "rate": "0.045 AUD per Payment Card Request",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "Canada",
+                "rate": "0.040 CAD per Payment Card Request",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "Canada",
+                "rate": "0.036 CAD per Payment Card Request",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "United Kingdom",
+                "rate": "0.030 GBP per Payment Card Request",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "United Kingdom",
+                "rate": "0.027 GBP per Payment Card Request",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "United States",
+                "rate": "0.030 USD per Payment Card Request",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Services Fee",
+                "territory": "United States",
+                "rate": "0.027 USD per Payment Card Request",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "Australia",
+                "rate": "1.050 AUD per Compact Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "Australia",
+                "rate": "0.940 AUD per Compact Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "Canada",
+                "rate": "0.900 CAD per Compact Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "Canada",
+                "rate": "0.810 CAD per Compact Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "United Kingdom",
+                "rate": "0.550 GBP per Compact Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "United Kingdom",
+                "rate": "0.490 GBP per Compact Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "United States",
+                "rate": "0.700 USD per Compact Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Compact)",
+                "description": "mPOS readers including: Stripe Reader M2 and BBPOS Wisepad 3",
+                "territory": "United States",
+                "rate": "0.650 USD per Compact Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "Australia",
+                "rate": "4.550 AUD per Smart Advanced Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "Australia",
+                "rate": "4.100 AUD per Smart Advanced Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "Canada",
+                "rate": "4.000 CAD per Smart Advanced Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "Canada",
+                "rate": "3.600 CAD per Smart Advanced Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "United Kingdom",
+                "rate": "2.400 GBP per Smart Advanced Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "United Kingdom",
+                "rate": "2.150 GBP per Smart Advanced Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "United States",
+                "rate": "3.000 USD per Smart Advanced Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Advanced)",
+                "description": "Desktop and SmartPOS readers including: Stripe Reader S700",
+                "territory": "United States",
+                "rate": "2.700 USD per Smart Advanced Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "Australia",
+                "rate": "4.550 AUD per Smart Standard Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "Australia",
+                "rate": "4.100 AUD per Smart Standard Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "Canada",
+                "rate": "4.000 CAD per Smart Standard Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "Canada",
+                "rate": "3.600 CAD per Smart Standard Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "United Kingdom",
+                "rate": "2.400 GBP per Smart Standard Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "United Kingdom",
+                "rate": "2.150 GBP per Smart Standard Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "United States",
+                "rate": "3.000 USD per Smart Standard Active Device per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "type": "Terminal Use Fee (Smart Standard)",
+                "description": "Desktop and SmartPOS readers including: BBPOS WisePOS E",
+                "territory": "United States",
+                "rate": "2.70 USD per Smart Standard Active Device per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "Australia",
+                "rate": "0.150 AUD per Payout",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "Australia",
+                "rate": "0.130 AUD per Payout",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "Australia",
+                "rate": "1.910 AUD per Active Account per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "Australia",
+                "rate": "1.720 AUD per Active Account per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "Australia",
+                "rate": "0.050% of Monthly Payout Volume",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "Australia",
+                "rate": "0.030% of Monthly Payout Volume",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Debits Fee",
+                "territory": "Australia",
+                "rate": "1.500% of Debit Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "Canada",
+                "rate": "0.130 CAD per Payout",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "Canada",
+                "rate": "0.110 CAD per Payout",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "Canada",
+                "rate": "1.650 CAD per Active Account per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "Canada",
+                "rate": "1.500 CAD per Active Account per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "Canada",
+                "rate": "0.050% of Monthly Payout Volume",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "Canada",
+                "rate": "0.030% of Monthly Payout Volume",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Initiation Fee",
+                "territory": "Canada",
+                "rate": "0.000 CAD per New Active Account per month",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Debits Fee",
+                "territory": "Canada",
+                "rate": "1.500% of Debit Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "United Kingdom",
+                "rate": "0.080 GBP per Payout",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "United Kingdom",
+                "rate": "0.070 GBP per Payout",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "United Kingdom",
+                "rate": "0.970 GBP per Active Account per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "United Kingdom",
+                "rate": "0.880 GBP per Active Account per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "United Kingdom",
+                "rate": "0.050% of Monthly Payout Volume",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "United Kingdom",
+                "rate": "0.030% of Monthly Payout Volume",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Debits Fee",
+                "territory": "United Kingdom",
+                "rate": "1.500% of Debit Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "United States",
+                "rate": "0.100 USD per Payout",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Standard Payout Fee",
+                "territory": "United States",
+                "rate": "0.090 USD per Payout",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "United States",
+                "rate": "1.250 USD per Active Account per month",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Active Account Fee",
+                "territory": "United States",
+                "rate": "1.100 USD per Active Account per month",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "United States",
+                "rate": "0.050% of Monthly Payout Volume",
+                "period": "Effective Date to 2024-12-31"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Volume Fee",
+                "territory": "United States",
+                "rate": "0.030% of Monthly Payout Volume",
+                "period": "From 2025-01-01 onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Initiation Fee",
+                "territory": "United States",
+                "rate": "0.000 USD per New Active Account per month",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "type": "Account Debits Fee",
+                "territory": "United States",
+                "rate": "1.500% of Debit Amount",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "type": "Radar for Fraud Teams",
+                "territory": "Canada",
+                "rate": "0.020 CAD per Screened Event",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "type": "Radar (Standard)",
+                "territory": "Canada",
+                "rate": "0.020 CAD per Screened Event",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "type": "Radar for Fraud Teams",
+                "territory": "United States",
+                "rate": "0.020 USD per Screened Event",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "type": "Radar (Standard)",
+                "territory": "United States",
+                "rate": "0.020 USD per Screened Event",
+                "period": "Effective Date onwards"
+            },
+            {
+                "product_category": "Stripe Identity",
+                "type": "ID Document Verification",
+                "territory": "Canada",
+                "rate": "1.10 CAD per ID Document Verification",
+                "period": "Effective Date onwards"
+            }
+        ],
+        "product_skus": [
+            "Network Cost",
+            "Percentage of Transaction Amount",
+            "Fixed Fee",
+            "Foreign Exchange Fee",
+            "3D Secure Lookup",
+            "Adaptive Acceptance",
+            "Card Account Updater",
+            "Instant Payout Fee",
+            "Network Token Fee",
+            "Card Dispute Fee",
+            "Terminal Services Fee",
+            "Terminal Use Fee (Compact)",
+            "Terminal Use Fee (Smart Advanced)",
+            "Terminal Use Fee (Smart Standard)",
+            "Standard Payout Fee",
+            "Active Account Fee",
+            "Account Volume Fee",
+            "Account Initiation Fee",
+            "Account Debits Fee",
+            "Radar for Fraud Teams (Screened Event)",
+            "Radar (Standard) (Screened Event)",
+            "ID Document Verification"
+        ],
+        "products": [
+            "Credit & Debit Card Fees",
+            "Foreign Exchange",
+            "Other Fees (Non-Terminal Transactions)",
+            "Terminal Transactions",
+            "Stripe Connect",
+            "Stripe Radar",
+            "Stripe Identity"
+        ],
+        "autorenewal": "Yes",
+        "direct_platform_territories": [
+            "Canada"
+        ],
+        "connect_territories": [
+            "Australia",
+            "United Kingdom",
+            "United States"
+        ],
+        "active_in_multiple_territories": true,
+        "incentives_credits_discounts_rebates_type": "Cost Adjustment (Network Cost, Direct Rate)",
+        "incentives_credits_discounts_rebates_amount": null,
+        "incentives_credits_discounts_rebates_start_date": null,
+        "incentives_credits_discounts_rebates_end_date": null,
+        "notice_period": "30 days",
+        "stripe_legal_entity": "Stripe Payments Canada, Ltd.",
+        "signing_user_entity_country_geography": "Canada",
+        "legal_entity_modification": null,
+        "subscription_start_date": "2024-10-16",
+        "contract_renewal_date": "2028-10-16",
+        "status": "Needs Attention",
+        "activity_run_id": "71594fb2-f5de-4f65-8e06-dfd14b46c58d",
+        "file_path": "input_contracts/CPA Connect Fee_Jane Software Inc__2024-10-14.docx.pdf"
+    },
+    {
+        "document_type": "Agreement",
+        "contract_effective_date": "2024-10-16",
+        "contract_start_date": "2024-10-16",
+        "contract_end_date": "2028-10-16",
+        "header": "STRIPE SERVICES FEE SCHEDULE - PLATFORM",
+        "client": "Jane Software, Inc., a Canadian Software Company",
+        "total_contract_value": null,
+        "product_rates": [
+            {
+                "product_category": "Credit & Debit Card Fees",
+                "sku_name": "Percentage of Transaction Amount (Tier 1)",
+                "territory": "All Eligible Accounts",
+                "currency": "CAD (converted volume)",
+                "rate_type": "percentage of transaction amount",
+                "rate_value": "0.050%",
+                "min_volume_cad": 0,
+                "max_volume_cad": 200000000,
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "Net Monthly Card Volume"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees",
+                "sku_name": "Fixed Fee (Tier 1)",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payment card request",
+                "rate_value": "0.076",
+                "min_volume_cad": 0,
+                "max_volume_cad": 200000000,
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "Net Monthly Card Volume"
+            },
+            {
+                "product_category": "Foreign Exchange Fee",
+                "sku_name": "Foreign Exchange Fee",
+                "territory": "Canada",
+                "currency": null,
+                "rate_type": "percentage of converted amount",
+                "rate_value": "2.00%",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "For each instance where funds are converted"
+            },
+            {
+                "product_category": "Other Fees",
+                "sku_name": "3D Secure Lookup",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per lookup",
+                "rate_value": "0.040",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "per 3D Secure Lookup (Non-Terminal)"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "sku_name": "Terminal Services Fee",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payment card request",
+                "rate_value": "0.050",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "per Payment Card Request"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "sku_name": "Standard Payout Fee",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payout",
+                "rate_value": "0.150",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "per Payout"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "sku_name": "Radar for Fraud Teams",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per event",
+                "rate_value": "0.020",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "per Screened Event"
+            },
+            {
+                "product_category": "Stripe Identity",
+                "sku_name": "ID Document Verification",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per verification",
+                "rate_value": "1.10",
+                "valid_from": "2024-10-16",
+                "valid_to": "2024-12-31",
+                "description": "per ID Document Verification"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees",
+                "sku_name": "Percentage of Transaction Amount (Tier 2)",
+                "territory": "All Eligible Accounts",
+                "currency": "CAD (converted volume)",
+                "rate_type": "percentage of transaction amount",
+                "rate_value": "0.030%",
+                "min_volume_cad": 200000000,
+                "max_volume_cad": 600000000,
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "Net Monthly Card Volume (Note: Tier boundaries changed)"
+            },
+            {
+                "product_category": "Credit & Debit Card Fees",
+                "sku_name": "Fixed Fee (Tier 2)",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payment card request",
+                "rate_value": "0.030",
+                "min_volume_cad": 200000000,
+                "max_volume_cad": 600000000,
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "Net Monthly Card Volume (Note: Tier boundaries changed)"
+            },
+            {
+                "product_category": "Foreign Exchange Fee",
+                "sku_name": "Foreign Exchange Fee",
+                "territory": "Canada",
+                "currency": null,
+                "rate_type": "percentage of converted amount",
+                "rate_value": "2.00%",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "For each instance where funds are converted (Same as previous period)"
+            },
+            {
+                "product_category": "Other Fees",
+                "sku_name": "3D Secure Lookup",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per lookup",
+                "rate_value": "0.040",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "per 3D Secure Lookup (Non-Terminal) (Same as previous period)"
+            },
+            {
+                "product_category": "Terminal Transactions",
+                "sku_name": "Terminal Services Fee",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payment card request",
+                "rate_value": "0.045",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "per Payment Card Request (Changed from 0.050 AUD)"
+            },
+            {
+                "product_category": "Stripe Connect",
+                "sku_name": "Standard Payout Fee",
+                "territory": "Australia",
+                "currency": "AUD",
+                "rate_type": "fixed fee per payout",
+                "rate_value": "0.130",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "per Payout (Changed from 0.150 AUD)"
+            },
+            {
+                "product_category": "Stripe Radar",
+                "sku_name": "Radar for Fraud Teams",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per event",
+                "rate_value": "0.020",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "per Screened Event (Same as previous period)"
+            },
+            {
+                "product_category": "Stripe Identity",
+                "sku_name": "ID Document Verification",
+                "territory": "Canada",
+                "currency": "CAD",
+                "rate_type": "fixed fee per verification",
+                "rate_value": "1.10",
+                "valid_from": "2025-01-01",
+                "valid_to": null,
+                "description": "per ID Document Verification (Same as previous period)"
+            }
+        ],
+        "product_skus": [
+            "Percentage of Transaction Amount",
+            "Fixed Fee",
+            "Foreign Exchange Fee",
+            "3D Secure Lookup",
+            "Adaptive Acceptance",
+            "Card Account Updater",
+            "Instant Payout Fee",
+            "Network Token Fee",
+            "Card Dispute Fee",
+            "Terminal Services Fee",
+            "Terminal Use Fee (Compact)",
+            "Terminal Use Fee (Smart Advanced)",
+            "Terminal Use Fee (Smart Standard)",
+            "Standard Payout Fee",
+            "Active Account Fee",
+            "Account Volume Fee",
+            "Account Debits Fee",
+            "Account Initiation Fee",
+            "Radar for Fraud Teams",
+            "Radar (Standard)",
+            "ID Document Verification"
+        ],
+        "products": [
+            "Credit & Debit Card Fees",
+            "Foreign Exchange Fee",
+            "Other Fees",
+            "Terminal Transactions",
+            "Stripe Connect",
+            "Stripe Radar",
+            "Stripe Identity"
+        ],
+        "autorenewal": "Yes",
+        "direct_platform_territories": [
+            "Australia",
+            "Canada",
+            "United Kingdom",
+            "United States"
+        ],
+        "connect_territories": [
+            "Australia",
+            "Canada",
+            "United Kingdom",
+            "United States"
+        ],
+        "active_in_multiple_territories": true,
+        "incentives_credits_discounts_rebates_type": null,
+        "incentives_credits_discounts_rebates_amount": null,
+        "incentives_credits_discounts_rebates_start_date": null,
+        "incentives_credits_discounts_rebates_end_date": null,
+        "notice_period": "30 days",
+        "stripe_legal_entity": "Stripe Payments Canada, Ltd.",
+        "signing_user_entity_country_geography": "Canada",
+        "legal_entity_modification": null,
+        "subscription_start_date": "2024-10-16",
+        "contract_renewal_date": "2028-10-16",
+        "status": "Needs Attention",
+        "activity_run_id": "349c15b4-0754-428a-9bf9-49a326c7ff38",
+        "file_path": "input_contracts/CPA Connect Fee_Jane Software Inc__2024-10-14.docx.pdf"
+    }
+]

@@ -1,0 +1,217 @@
+{
+    "document_type": "Agreement",
+    "contract_effective_date": "2023-05-24",
+    "contract_start_date": "2023-05-24",
+    "contract_end_date": "2025-05-24",
+    "header": "STRIPE SERVICES FEE SCHEDULE",
+    "client": "Midjourney Inc",
+    "total_contract_value": 6311227,
+    "product_rates": [
+        {
+            "product_sku": "Credit & Debit Card Transaction (Tier 1)",
+            "rate_type": "percentage",
+            "rate_value": 0.25,
+            "fixed_fee_value": 0.035,
+            "currency": "USD",
+            "volume_tier": "0 to 30,000,000 USD Net Monthly Card Volume"
+        },
+        {
+            "product_sku": "Credit & Debit Card Transaction (Tier 2)",
+            "rate_type": "percentage",
+            "rate_value": 0.18,
+            "fixed_fee_value": 0.03,
+            "currency": "USD",
+            "volume_tier": "30,000,000 to 60,000,000 USD Net Monthly Card Volume"
+        },
+        {
+            "product_sku": "Credit & Debit Card Transaction (Tier 3)",
+            "rate_type": "percentage",
+            "rate_value": 0.13,
+            "fixed_fee_value": 0.025,
+            "currency": "USD",
+            "volume_tier": "60,000,000 to 120,000,000 USD Net Monthly Card Volume"
+        },
+        {
+            "product_sku": "Credit & Debit Card Transaction (Tier 4)",
+            "rate_type": "percentage",
+            "rate_value": 0.1,
+            "fixed_fee_value": 0.01,
+            "currency": "USD",
+            "volume_tier": "Greater than 120,000,000 USD Net Monthly Card Volume"
+        },
+        {
+            "product_sku": "Bancontact Transaction",
+            "rate_type": "percentage",
+            "rate_value": 1.4,
+            "fixed_fee_value": 0.3,
+            "currency": "USD",
+            "note": "Plus International Payment Methods Fee"
+        },
+        {
+            "product_sku": "iDeal Transaction",
+            "rate_type": "percentage",
+            "rate_value": 0.0,
+            "fixed_fee_value": 0.8,
+            "currency": "USD",
+            "note": "Plus International Payment Methods Fee"
+        },
+        {
+            "product_sku": "Link Transaction",
+            "rate_type": "percentage",
+            "rate_value": 2.7,
+            "fixed_fee_value": 0.2,
+            "currency": "USD"
+        },
+        {
+            "product_sku": "Foreign Exchange Fee (Link)",
+            "rate_type": "percentage",
+            "rate_value": 1.0,
+            "applies_to": "converted amount"
+        },
+        {
+            "product_sku": "Foreign Exchange Fee",
+            "rate_type": "percentage",
+            "rate_value": 1.0,
+            "applies_to": "converted amount"
+        },
+        {
+            "product_sku": "International Card Fee (Link)",
+            "rate_type": "percentage",
+            "rate_value": 1.0,
+            "applies_to": "Transaction Amount"
+        },
+        {
+            "product_sku": "International Payment Methods Fee",
+            "rate_type": "percentage",
+            "rate_value": 1.5,
+            "applies_to": "Transaction Amount"
+        },
+        {
+            "product_sku": "Link Dispute Fee",
+            "fixed_fee_value": 15.0,
+            "currency": "USD",
+            "unit": "per disputed payment"
+        },
+        {
+            "product_sku": "3D Secure Lookup",
+            "fixed_fee_value": 0.03,
+            "currency": "USD",
+            "unit": "per 3D Secure Lookup"
+        },
+        {
+            "product_sku": "Adaptive Acceptance",
+            "rate_type": "percentage",
+            "rate_value": 0.02,
+            "applies_to": "aggregate Transaction Amount for all card Transactions"
+        },
+        {
+            "product_sku": "Card Account Updater",
+            "fixed_fee_value": 0.13,
+            "currency": "USD",
+            "unit": "per Automatic Card Update"
+        },
+        {
+            "product_sku": "Card Dispute Fee",
+            "fixed_fee_value": 15.0,
+            "currency": "USD",
+            "unit": "per disputed payment if not resolved in User's favor"
+        },
+        {
+            "product_sku": "Billing Scale (Stripe Billing)",
+            "rate_type": "percentage",
+            "rate_value": 0.6,
+            "applies_to": "Processing Volume resulting from Transactions initiated by creation of an invoice or a subscription"
+        },
+        {
+            "product_sku": "Radar for Fraud Teams Screened Event",
+            "fixed_fee_value": 0.05,
+            "currency": "USD",
+            "unit": "per Screened Event"
+        },
+        {
+            "product_sku": "Radar (Standard) Screened Event",
+            "fixed_fee_value": 0.05,
+            "currency": "USD",
+            "unit": "per Screened Event"
+        },
+        {
+            "product_sku": "Sigma Infrastructure Fee",
+            "fixed_fee_value": 1000.0,
+            "currency": "USD",
+            "unit": "per month"
+        },
+        {
+            "product_sku": "Sigma Activity Fee",
+            "fixed_fee_value": 0.006,
+            "currency": "USD",
+            "unit": "per Payment Method Request"
+        },
+        {
+            "product_sku": "Stripe Tax",
+            "rate_type": "percentage",
+            "rate_value": 0.15,
+            "applies_to": "Transaction Amount"
+        },
+        {
+            "product_sku": "Premium Support Services",
+            "fixed_fee_value": 5400.0,
+            "currency": "USD",
+            "unit": "per month"
+        }
+    ],
+    "product_skus": [
+        "Credit & Debit Card Transaction (Tier 1)",
+        "Credit & Debit Card Transaction (Tier 2)",
+        "Credit & Debit Card Transaction (Tier 3)",
+        "Credit & Debit Card Transaction (Tier 4)",
+        "Bancontact Transaction",
+        "iDeal Transaction",
+        "Link Transaction",
+        "Foreign Exchange Fee (Link)",
+        "Foreign Exchange Fee",
+        "International Card Fee (Link)",
+        "International Payment Methods Fee",
+        "Link Dispute Fee",
+        "3D Secure Lookup",
+        "Adaptive Acceptance",
+        "Card Account Updater",
+        "Card Dispute Fee",
+        "Billing Scale (Stripe Billing)",
+        "Radar for Fraud Teams Screened Event",
+        "Radar (Standard) Screened Event",
+        "Sigma Infrastructure Fee",
+        "Sigma Activity Fee",
+        "Stripe Tax",
+        "Premium Support Services"
+    ],
+    "products": [
+        "Credit & Debit Card Fees",
+        "Other Payment Methods Fees",
+        "Foreign Exchange Fee; International Payment Methods Fee",
+        "Other Fees (Non-Terminal Transactions)",
+        "Stripe Billing",
+        "Stripe Radar",
+        "Stripe Sigma",
+        "Stripe Tax",
+        "Support Services"
+    ],
+    "autorenewal": null,
+    "direct_platform_territories": [
+        "United States"
+    ],
+    "connect_territories": null,
+    "active_in_multiple_territories": false,
+    "incentives_credits_discounts_rebates_type": "Shortfall Credit",
+    "incentives_credits_discounts_rebates_amount": null,
+    "incentives_credits_discounts_rebates_start_date": null,
+    "incentives_credits_discounts_rebates_end_date": null,
+    "notice_period": null,
+    "stripe_legal_entity": "Stripe, Inc., a Delaware corporation",
+    "signing_user_entity_country_geography": "United States",
+    "legal_entity_modification": null,
+    "subscription_start_date": "2023-05-24",
+    "contract_renewal_date": null,
+    "status": "In Progress",
+    "activity_run_id": "a8b1ce54-eb72-4757-85df-eb12517c49b1",
+    "file_path": "input_contracts/Midjourney Direct Fee Schedule 5-22-2023.pdf"
+}

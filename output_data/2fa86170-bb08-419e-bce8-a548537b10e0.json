@@ -1,0 +1,722 @@
+{
+    "contract_effective_date": "2024-10-16",
+    "contract_start_date": "2024-10-16",
+    "contract_end_date": "2028-10-15",
+    "header": "STRIPE SERVICES FEE SCHEDULE - PLATFORM",
+    "client": "Jane Software, Inc., a Canadian Software Company",
+    "total_contract_value": null,
+    "product_rates": {
+        "effective_date_to_2024-12-31": {
+            "Credit & Debit Card Fees - Non-Terminal Transactions and Terminal Transactions": {
+                "Fee Tier 1 (Net Monthly Card Volume CAD 0 to 200,000,000)": {
+                    "Percentage of Transaction Amount": "0.050%",
+                    "Fixed Fee": {
+                        "AUD": "0.076",
+                        "CAD": "0.050",
+                        "GBP": "0.039",
+                        "USD": "0.050"
+                    }
+                },
+                "Fee Tier 2 (Net Monthly Card Volume CAD 200,000,000 to 450,000,000)": {
+                    "Percentage of Transaction Amount": "0.035%",
+                    "Fixed Fee": {
+                        "AUD": "0.053",
+                        "CAD": "0.035",
+                        "GBP": "0.027",
+                        "USD": "0.035"
+                    }
+                },
+                "Fee Tier 3 (Net Monthly Card Volume CAD 450,000,000 to 600,000,000)": {
+                    "Percentage of Transaction Amount": "0.030%",
+                    "Fixed Fee": {
+                        "AUD": "0.038",
+                        "CAD": "0.025",
+                        "GBP": "0.020",
+                        "USD": "0.025"
+                    }
+                },
+                "Fee Tier 4 (Net Monthly Card Volume CAD 600,000,000 to 750,000,000)": {
+                    "Percentage of Transaction Amount": "0.020%",
+                    "Fixed Fee": {
+                        "AUD": "0.030",
+                        "CAD": "0.020",
+                        "GBP": "0.016",
+                        "USD": "0.020"
+                    }
+                },
+                "Fee Tier 4 (Net Monthly Card Volume Greater than CAD 750,000,000)": {
+                    "Percentage of Transaction Amount": "0.015%",
+                    "Fixed Fee": {
+                        "AUD": "0.030",
+                        "CAD": "0.020",
+                        "GBP": "0.016",
+                        "USD": "0.020"
+                    }
+                }
+            },
+            "Foreign Exchange Fee": [
+                {
+                    "Territory": "Australia",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "Canada",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "United Kingdom",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "United States",
+                    "Fees": "1.00% of the converted amount"
+                }
+            ],
+            "Other Fees - Non-Terminal Transactions": [
+                {
+                    "Type": "3D Secure",
+                    "Territory": "Canada",
+                    "Fees": "0.040 CAD per 3D Secure Lookup"
+                },
+                {
+                    "Type": "Adaptive Acceptance",
+                    "Territory": "Canada",
+                    "Fees": "0.000% of the aggregate Transaction Amount for all card Transactions, charged daily"
+                },
+                {
+                    "Type": "Card Account Updater",
+                    "Territory": "Canada",
+                    "Fees": "0.150 CAD per Automatic Card Update"
+                },
+                {
+                    "Type": "Instant Payout Fee (Minimum of 0.60 CAD)",
+                    "Territory": "Canada",
+                    "Fees": "0.500% of Payout Amount"
+                },
+                {
+                    "Type": "Network Token Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.200 CAD per Card Network Token"
+                },
+                {
+                    "Type": "Instant Payout Fee (Minimum of 0.50 USD)",
+                    "Territory": "United States",
+                    "Fees": "0.500% of Payout Amount"
+                },
+                {
+                    "Type": "3D Secure",
+                    "Territory": "United States",
+                    "Fees": "0.030 USD per 3D Secure Lookup"
+                },
+                {
+                    "Type": "Adaptive Acceptance",
+                    "Territory": "United States",
+                    "Fees": "0.000% of the aggregate Transaction Amount for all card Transactions, charged daily"
+                },
+                {
+                    "Type": "Card Account Updater",
+                    "Territory": "United States",
+                    "Fees": "0.150 USD per Automatic Card Update"
+                },
+                {
+                    "Type": "Network Token Fee",
+                    "Territory": "United States",
+                    "Fees": "0.200 USD per Card Network Token"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "Australia",
+                    "Fees": "25.000 AUD per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "Canada",
+                    "Fees": "15.000 CAD per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "15.000 GBP per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "United States",
+                    "Fees": "15.00 USD per disputed payment"
+                },
+                {
+                    "Type": "Instant Payout Fee (Minimum of 0.40 GBP)",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.500% of Payout Amount"
+                }
+            ],
+            "Terminal Transactions": [
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.050 AUD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.040 CAD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.030 GBP per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "United States",
+                    "Fees": "0.030 USD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "1.050 AUD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "0.900 CAD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.550 GBP per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "United States",
+                    "Fees": "0.700 USD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "4.550 AUD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "4.000 CAD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "2.400 GBP per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "United States",
+                    "Fees": "3.000 USD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "4.550 AUD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "4.000 CAD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "2.400 GBP per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "United States",
+                    "Fees": "3.000 USD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                }
+            ],
+            "Stripe Connect": [
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.150 AUD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "Australia",
+                    "Fees": "1.910 AUD per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.050% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "Australia",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.130 CAD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "Canada",
+                    "Fees": "1.650 CAD per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.050% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Initiation Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.000 CAD per New Active Account per month"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "Canada",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.080 GBP per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.970 GBP per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.050% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "United States",
+                    "Fees": "0.100 USD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "United States",
+                    "Fees": "1.250 USD per Active Account per month"
+                }
+            ],
+            "Stripe Radar": [
+                {
+                    "Type": "Radar for Fraud Teams",
+                    "Territory": "Canada",
+                    "Fees": "0.020 CAD per Screened Event"
+                },
+                {
+                    "Type": "Radar (Standard)",
+                    "Territory": "Canada",
+                    "Fees": "0.020 CAD per Screened Event"
+                },
+                {
+                    "Type": "Radar for Fraud Teams",
+                    "Territory": "United States",
+                    "Fees": "0.020 USD per Screened Event"
+                },
+                {
+                    "Type": "Radar (Standard)",
+                    "Territory": "United States",
+                    "Fees": "0.020 USD per Screened Event"
+                }
+            ],
+            "Stripe Identity": [
+                {
+                    "Type": "ID Document Verification",
+                    "Territory": "Canada",
+                    "Fees": "1.10 CAD per ID Document Verification"
+                }
+            ]
+        },
+        "starting_2025-01-01": {
+            "Credit & Debit Card Fees - Non-Terminal Transactions and Terminal Transactions": {
+                "Fee Tier 1 (Net Monthly Card Volume CAD 0 to 200,000,000)": {
+                    "Percentage of Transaction Amount": "0.050%",
+                    "Fixed Fee": {
+                        "AUD": "0.076",
+                        "CAD": "0.050",
+                        "GBP": "0.039",
+                        "USD": "0.050"
+                    }
+                },
+                "Fee Tier 2 (Net Monthly Card Volume CAD 200,000,000 to 600,000,000)": {
+                    "Percentage of Transaction Amount": "0.030%",
+                    "Fixed Fee": {
+                        "AUD": "0.030",
+                        "CAD": "0.020",
+                        "GBP": "0.016",
+                        "USD": "0.020"
+                    }
+                },
+                "Fee Tier 3 (Net Monthly Card Volume CAD 600,000,000 to 750,000,000)": {
+                    "Percentage of Transaction Amount": "0.020%",
+                    "Fixed Fee": {
+                        "AUD": "0.030",
+                        "CAD": "0.020",
+                        "GBP": "0.016",
+                        "USD": "0.020"
+                    }
+                },
+                "Fee Tier 4 (Net Monthly Card Volume Greater than CAD 750,000,000)": {
+                    "Percentage of Transaction Amount": "0.015%",
+                    "Fixed Fee": {
+                        "AUD": "0.030",
+                        "CAD": "0.020",
+                        "GBP": "0.016",
+                        "USD": "0.020"
+                    }
+                }
+            },
+            "Foreign Exchange Fee": [
+                {
+                    "Territory": "Australia",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "Canada",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "United Kingdom",
+                    "Fees": "2.00% of the converted amount"
+                },
+                {
+                    "Territory": "United States",
+                    "Fees": "1.00% of the converted amount"
+                }
+            ],
+            "Other Fees - Non-Terminal Transactions": [
+                {
+                    "Type": "3D Secure",
+                    "Territory": "Canada",
+                    "Fees": "0.040 CAD per 3D Secure Lookup"
+                },
+                {
+                    "Type": "Adaptive Acceptance",
+                    "Territory": "Canada",
+                    "Fees": "0.000% of the aggregate Transaction Amount for all card Transactions, charged daily"
+                },
+                {
+                    "Type": "Card Account Updater",
+                    "Territory": "Canada",
+                    "Fees": "0.150 CAD per Automatic Card Update"
+                },
+                {
+                    "Type": "Instant Payout Fee (Minimum of 0.60 CAD)",
+                    "Territory": "Canada",
+                    "Fees": "0.500% of Payout Amount"
+                },
+                {
+                    "Type": "Network Token Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.050 CAD per Card Network Token"
+                },
+                {
+                    "Type": "3D Secure",
+                    "Territory": "United States",
+                    "Fees": "0.040 USD per 3D Secure Lookup"
+                },
+                {
+                    "Type": "Adaptive Acceptance",
+                    "Territory": "United States",
+                    "Fees": "0.000% of the aggregate Transaction Amount for all card Transactions, charged daily"
+                },
+                {
+                    "Type": "Card Account Updater",
+                    "Territory": "United States",
+                    "Fees": "0.150 USD per Automatic Card Update"
+                },
+                {
+                    "Type": "Network Token Fee",
+                    "Territory": "United States",
+                    "Fees": "0.050 USD per Card Network Token"
+                },
+                {
+                    "Type": "Instant Payout Fee (Minimum of 0.50 USD)",
+                    "Territory": "United States",
+                    "Fees": "0.500% of Payout Amount"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "Australia",
+                    "Fees": "25.000 AUD per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "Canada",
+                    "Fees": "15.000 CAD per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "15.000 GBP per disputed payment"
+                },
+                {
+                    "Type": "Card Dispute Fee",
+                    "Territory": "United States",
+                    "Fees": "15.00 USD per disputed payment"
+                }
+            ],
+            "Terminal Transactions": [
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.045 AUD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.036 CAD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.027 GBP per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Services Fee",
+                    "Territory": "United States",
+                    "Fees": "0.027 USD per Payment Card Request"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "0.940 AUD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "0.810 CAD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.490 GBP per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Compact) - mPOS readers",
+                    "Territory": "United States",
+                    "Fees": "0.650 USD per Compact Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "4.100 AUD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "3.600 CAD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "2.150 GBP per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Advanced) - Desktop and SmartPOS readers",
+                    "Territory": "United States",
+                    "Fees": "2.700 USD per Smart Advanced Active Device per month"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "Australia",
+                    "Fees": "4.100 AUD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "Canada",
+                    "Fees": "3.600 CAD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "United Kingdom",
+                    "Fees": "2.150 GBP per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                },
+                {
+                    "Type": "Terminal Use Fee (Smart Standard) - Desktop and SmartPOS readers",
+                    "Territory": "United States",
+                    "Fees": "2.70 USD per Smart Standard Active Device per month (Additional fees for Terminal Apps on Devices)"
+                }
+            ],
+            "Stripe Connect": [
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.130 AUD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "Australia",
+                    "Fees": "1.720 AUD per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "Australia",
+                    "Fees": "0.030% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "Australia",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.110 CAD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "Canada",
+                    "Fees": "1.500 CAD per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.030% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Initiation Fee",
+                    "Territory": "Canada",
+                    "Fees": "0.000 CAD per New Active Account per month"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "Canada",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.070 GBP per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.880 GBP per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "0.030% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "United Kingdom",
+                    "Fees": "1.500% of Debit Amount"
+                },
+                {
+                    "Type": "Standard Payout Fee",
+                    "Territory": "United States",
+                    "Fees": "0.090 USD per Payout"
+                },
+                {
+                    "Type": "Active Account Fee",
+                    "Territory": "United States",
+                    "Fees": "1.100 USD per Active Account per month"
+                },
+                {
+                    "Type": "Account Volume Fee",
+                    "Territory": "United States",
+                    "Fees": "0.030% of Monthly Payout Volume"
+                },
+                {
+                    "Type": "Account Initiation Fee",
+                    "Territory": "United States",
+                    "Fees": "0.000 USD per New Active Account per month"
+                },
+                {
+                    "Type": "Account Debits Fee",
+                    "Territory": "United States",
+                    "Fees": "1.500% of Debit Amount"
+                }
+            ],
+            "Stripe Radar": [
+                {
+                    "Type": "Radar for Fraud Teams",
+                    "Territory": "Canada",
+                    "Fees": "0.020 CAD per Screened Event"
+                },
+                {
+                    "Type": "Radar (Standard)",
+                    "Territory": "Canada",
+                    "Fees": "0.020 CAD per Screened Event"
+                },
+                {
+                    "Type": "Radar for Fraud Teams",
+                    "Territory": "United States",
+                    "Fees": "0.020 USD per Screened Event"
+                },
+                {
+                    "Type": "Radar (Standard)",
+                    "Territory": "United States",
+                    "Fees": "0.020 USD per Screened Event"
+                }
+            ],
+            "Stripe Identity": [
+                {
+                    "Type": "ID Document Verification",
+                    "Territory": "Canada",
+                    "Fees": "1.10 CAD per ID Document Verification"
+                }
+            ]
+        }
+    },
+    "product_skus": null,
+    "products": [
+        "Credit & Debit Card Processing (Non-Terminal & Terminal Transactions)",
+        "Foreign Exchange",
+        "3D Secure",
+        "Adaptive Acceptance",
+        "Card Account Updater",
+        "Instant Payouts",
+        "Network Token",
+        "Card Dispute Management",
+        "Terminal Services",
+        "Terminal Use (Compact Active Device - mPOS readers)",
+        "Terminal Use (Smart Advanced Active Device - Desktop and SmartPOS readers)",
+        "Terminal Use (Smart Standard Active Device - Desktop and SmartPOS readers)",
+        "Stripe Connect (Standard Payout)",
+        "Stripe Connect (Active Account)",
+        "Stripe Connect (Account Volume)",
+        "Stripe Connect (Account Debits)",
+        "Stripe Connect (Account Initiation)",
+        "Stripe Radar (Fraud Teams)",
+        "Stripe Radar (Standard)",
+        "Stripe Identity (ID Document Verification)"
+    ],
+    "autorenewal": true,
+    "direct_platform_territories": [
+        "Canada"
+    ],
+    "connect_territories": [
+        "Australia",
+        "United Kingdom",
+        "United States"
+    ],
+    "active_in_multiple_territories": true,
+    "incentives_credits_discounts_rebates_type": null,
+    "incentives_credits_discounts_rebates_amount": null,
+    "incentives_credits_discounts_rebates_start_date": null,
+    "incentives_credits_discounts_rebates_end_date": null,
+    "notice_period": "30 days",
+    "stripe_legal_entity": "Stripe Payments Canada, Ltd.",
+    "signing_user_entity_country_geography": "Canada",
+    "legal_entity_modification": null,
+    "subscription_start_date": null,
+    "contract_renewal_date": "2028-10-16",
+    "is_amendment": false,
+    "status": "In Progress",
+    "activity_run_id": "2fa86170-bb08-419e-bce8-a548537b10e0",
+    "file_path": "input_contracts/CPA Connect Fee_Jane Software Inc__2024-10-14.docx.pdf"
+}
